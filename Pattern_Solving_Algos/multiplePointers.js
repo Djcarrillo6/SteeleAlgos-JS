@@ -1,5 +1,5 @@
 /*
-Implement a function called countUniqueValues, which accepts a sorted array, and counts the unique values in the array.  There can be negative numbers in the array, but it will always be sorted.
+Implement a function called countUniqueValues, which accepts a sorted array, and counts the unique values in the array.  There can be negative numbers in the array, but it will always be sorted!
 
 countUniqueValues([1,1,1,1,2]) // 2
 countUniqueValues([1,2,3,4,4,4]) // 4
@@ -15,7 +15,7 @@ Strategy Notes:
 
 function countUniqueValues(arr) {
 
-    // edge case for an empty array 
+    // edge case for an empty []
     if (arr.length === 0) return 0;
 
     var i = 0;
