@@ -15,7 +15,7 @@ Strategy Notes:
 
 function countUniqueValues(arr) {
 
-    // edge case for an empty []
+    // edge case for an empty array
     if (arr.length === 0) return 0;
 
     var i = 0;
