@@ -2,7 +2,7 @@
 Given two strings, write a function to determine if the second string is an anagram of the first.
 
 validAnagram('aaz', 'zza') // true
-validAnagram('aaz', 'zzay') // false FALSE
+validAnagram('aaz', 'zzay') // false 
 */
 
 function validAnagram(first, second) {
