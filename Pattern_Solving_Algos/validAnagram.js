@@ -35,6 +35,6 @@ function validAnagram(first, second) {
 /*
 Strategy Note:
 
-After the 'lookup' obj if first constructed, the second loop if used to decrement the value by 1 of each key until there are essentially reduced to 0.  If the loop tries to decrement a value of 0; it can't be an anagram, thus returning 'false'.  If however at the end of the second loop all values in 'lookup' have been reduced to zero, then it is an anagram and we can return 'true'.
+After the 'lookup' obj if first constructed, the second loop if used to decrement the value by 1 of each key until there are essentially reduced to 0.  If the loop tries to decrement a value of 0; it can't be an anagram, thus returning 'false'.  If however at the end of the second loop all values in 'lookup' have been reduced to zero, then it is an anagram and we can return "true".
 */
 
