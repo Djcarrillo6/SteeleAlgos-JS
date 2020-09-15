@@ -1,8 +1,8 @@
 /*
 Given two strings, write a function to determine if the second string is an anagram of the first.
 
-validAnagram('aaz', 'zza') // true
-validAnagram('aaz', 'zzay') // false 
+validAnagram('aaz', 'zza') // TRUE
+validAnagram('aaz', 'zzay') // FALSE 
 */
 
 function validAnagram(first, second) {
