@@ -21,7 +21,7 @@ function validAnagram(first, second) {
     // loop over 'second' edge case: if letter if NOT in 'lookup'; return false
     for (let i = 0; i < second.length; i++) {
         let letter = second[i];
-        // can't find 'letter' or 'letter' is zero then it not an anagram
+        // can't find 'letter' or 'letter' is zero then it's not an anagram
         if (!lookup[letter]) {
             return false;
         } else {
