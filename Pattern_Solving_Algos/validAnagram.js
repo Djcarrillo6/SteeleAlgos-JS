@@ -9,7 +9,7 @@ function validAnagram(first, second) {
     // edge case: if lengths aren't equal => return falase
     if (first.length !== second.length) { return false };
 
-    // instaniate and obj to track char. frequencies
+    // instantiate and obj to track char. frequencies
     const lookup = {};
 
     // loop over 'first', if it exists in 'lookup', increment; otherwise instatiate(set = 1)
