@@ -37,4 +37,4 @@ function merge(arr1, arr2) {
         j++;
     }
     return results;
-}
+};
