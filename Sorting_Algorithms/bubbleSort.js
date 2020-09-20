@@ -30,11 +30,11 @@ function bubbleSort(arr) {
                 arr[j + 1] = temp;
                 noSwaps = false;
             }
-        }
+        };
 
         // If noSwap == true, break the while loop to prevent unnecesary loops on sorted data. 
         if (noSwaps) break;
-    }
+    };
 
     // Return the sorted array. 
     return arr;

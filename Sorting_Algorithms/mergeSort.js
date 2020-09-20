@@ -8,6 +8,7 @@ Merging Arrays Note:
 * This function should run in O(n + m)time and )(n + m)space and SHOULD NOT modify the parameters passed to it. 
     - O(n + m) where 'n' & 'm' are the length of the two input arrays. They are usually a similiar length, if not the same length.  As either of the size of those arrays grows, so does the time needed to finish. 
 
+    **
 Psuedo-Code: 
 
 
