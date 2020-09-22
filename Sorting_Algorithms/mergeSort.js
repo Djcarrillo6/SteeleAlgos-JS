@@ -6,7 +6,7 @@ Merging Arrays Note:
 * In order to implement merge sort, it's useful to first implement a function responsible for merging two sorted arrays.
 * Given two arrays which are sorted, this helper function should create a new array which is also a sorted, and consists of all of the elements in the two input arrays. 
 * This function should run in O(n + m)time and )(n + m)space and SHOULD NOT modify the parameters passed to it. 
-    - O(n + m) where 'n' & 'm' are the length of the two input arrays. They are usually a similiar length, if not the same length.  As either of the size of those arrays grows, so does the time needed to finish. 
+    - O(n + m) where 'n' & 'm' are the length of the two input arrays. They are usually a similiar length, if not the same length.  As either of the size of those arrays grows, so does the time needed to finish..  
 
 
 Psuedo-Code: 
