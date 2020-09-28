@@ -13,7 +13,7 @@ Psuedo-Code:
 */
 
 function bubbleSort(arr) {
-  // Boolean var, set to 'true' at start of 2nd loop, if it stays 'true' after completing 2nd loop, break outter for-loop.
+  // Boolean var, set to 'true' at start of 2nd loop, if it stays 'true' after completing 2nd loop, break the outter for-loop.
   var noSwaps;
 
   // For-loop, from the end => start; Now we can use 'i' in the 'j' for-loop..
