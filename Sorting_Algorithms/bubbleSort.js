@@ -29,7 +29,7 @@ function bubbleSort(arr) {
       }
     }
 
-    // If noSwap == true, break the while loop to prevent unnecesary loops on sorted data.
+    // If noSwap == true, break the while loop to prevent un-needed loops on sorted data.
     if (noSwaps) break;
   }
 
