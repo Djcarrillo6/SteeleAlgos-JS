@@ -16,7 +16,7 @@ function bubbleSort(arr) {
   // Boolean var, set to 'true' at start of 2nd loop, if it stays 'true' after completing 2nd loop, break the outter for-loop.
   var noSwaps;
 
-  // For-loop, from the end => start; Now we can use 'i' in the 'j' for-loop..
+  // For-loop, from the end => start; Now we can use "i" in the "j" for-loop..
   for (var i = arr.length; i > 0; i--) {
     // Set bool to true to start, and if a swap is made, toggle it too 'false'.
     noSwaps = true;
