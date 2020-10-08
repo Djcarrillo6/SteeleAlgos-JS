@@ -19,7 +19,7 @@ function bubbleSort(arr) {
 
   // For-loop, from the end => start; Now we can use "i" in the "j" for-loop..
   for (var i = arr.length; i > 0; i--) {
-    // Set bool to true to start, and if a swap is made, toggle it too 'false'.
+    // Set boolean to true to start, and if a swap is made, toggle it too 'false'.
     noSwaps = true;
     for (var j = 0; j < i - 1; j++) {
       if (arr[j] > arr[j + 1]) {
