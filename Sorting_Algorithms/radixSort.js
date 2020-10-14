@@ -36,7 +36,7 @@ Radix Sort Psuedo-Code:
     - Create buckets for each digit (0 to 9)
     - Place each number in the corresponding bucket based on its 'k-th' digit
 5. Replace our existing array with values in our buckets, starting with 0 and going up to 9.
-6. Return the list at the end!
+6. Return the list at the end.
 */
 
 function radixSort(nums) {
